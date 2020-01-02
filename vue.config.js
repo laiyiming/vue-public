@@ -13,6 +13,19 @@ module.exports = {
   lintOnSave: process.env.NODE_ENV === 'development',
   productionSourceMap: false,
 	devServer: {
-
+    proxy: {
+      '/api': {
+        // target: `http://127.0.0.1:${port}/mock`,
+        target: process.env.VUE_APP_BASE_URL,
+        changeOrigin: true,
+        ws: true,
+        // pathRewrite: {
+        //   ['^' + process.env.VUE_APP_BASE_API]: ''
+        // },
+        pathRewrite: {
+          '^/api': ''
+        }
+      }
+    },
 	}
 }

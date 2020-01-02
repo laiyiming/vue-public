@@ -1,11 +1,7 @@
-import common from "@/api/Common";
-import home from "@/api/Home";
-
-const api = {
-  ...common,
-  ...home
-};
+import common from "./common.js";
+import home from "./home.js";
 
 export default {
-  ...api
+  ...common,
+  ...home
 };
