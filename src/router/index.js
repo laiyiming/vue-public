@@ -1,6 +1,6 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import about from "./module/about.js";
+import roters from "./module/index.js";
 
 Vue.use(VueRouter);
 
@@ -10,7 +10,16 @@ const routes = [
     name: "home",
     component: () => import(/* webpackChunkName: "home" */ "@/views/Home.vue")
   },
-  ...about
+  ...roters,
+  {
+    path: "/404",
+    name: "NotFound",
+    meta: {
+      permission: "public"
+    },
+    component: () =>
+      import(/* webpackChunkName: "not-found" */ "../views/common/404.vue")
+  }
 ];
 
 const router = new VueRouter({
