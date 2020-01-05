@@ -1,0 +1,128 @@
+
+/*
+ * 自定义变量文件
+ */
+
+:root {
+  /* color */
+  --color-primary                                           : #3B86FF;
+  --color-primary-2                                         : #0865FF;
+  --color-white                                             : #fff;
+  --bg-color-base                                           : var(--color-white);
+  --bg-color-assist                                         : #2F323A;
+  --color-base                                              : #222;
+  --color-gray                                              : #999;
+  --color-gray-2                                            : #BBBBBB;
+  --color-dark-gray                                         : #333;
+  --color-danger                                            : #FF677D;
+  --color-warning                                           : #FFAA02;
+  --color-disable                                           : #697B98;
+  --color-more-difficult                                    : #853BFF;
+  --color-success                                           : #33CD90;
+  --color-assist-gray                                       : #787878;
+  --color-primary-light                                     : #CDE5FF;
+  --bg-color-primary                                        : #ff9c00;
+  --br-color-base                                           : #DDDDDD;
+  --br-color-base-1                                         : #EEEEEE;
+
+  /* color:hover */
+  --color-base-hover                                        : rgba(34, 34, 34, 0.5);
+  --color-disable-hover                                     : rgba(105, 123, 152, 0.5);
+  --br-color-base-1-hover                                   : rgba(238, 238, 238, 0.5);
+  
+  /* login */
+  --login-form-bg                                           : var(--color-white);
+
+  /* dialog */
+  --dialog-header-bg                                        : #F5F7FA;
+  --dialog-header-close                                     : #909399;
+
+  /* popover */
+  --popover-br-color                                        : #81BDFF;
+  --popover-popper-arrow-br-color                           : var(--popover-br-color);
+  
+  /* header */
+  --header-bg                                               : #0F1B31;
+  --header-color                                            : var(--color-white);
+  --header-menu-color                                       : #bbb;
+  --header-sub-menu-bg                                      : var(--color-white);
+  --header-sub-menu-active-color                            : var(--color-primary);
+
+  /* home */
+  --home-header-bg                                          : var(--bg-color-base);
+  --home-header-color                                       : var(--color-base);
+  --home-header-icon-bg                                     : var(--color-primary);
+  --home-banner-pagination-bg                               : rgba(255,255,255,0.5);
+  --home-banner-pagination-active-bg                        : var(--bg-color-base);
+  --home-user-login-color                                   : var(--color-base);
+  --home-user-login-submit-color                            : var(--color-white);
+  --home-user-login-bg                                      : var(--bg-color-base);
+  --home-user-login-forget-password                         : var(--color-gray);
+  --home-system-white-color                                 : var(--color-white);
+  --home-system-bg                                          : var(--bg-color-base);
+  --home-system-info-color                                  : var(--color-assist-gray);
+  --home-footer-bg                                          : var(--bg-color-assist);
+  --home-footer-title-color                                 : #D8D8D8;
+  --home-footer-color                                       : var(--color-assist-gray);
+  --home-footer-copyright-border-color                      : #3F4249;
+  --home-footer-copyright-color                             : #5C5D61;
+  --home-user-info-password                                 : #A0ABC3;
+  --home-user-info-campus                                   : var(--color-table-td);
+  --home-user-info-role                                     : var(--color-gray);
+  --home-user-info-logout-color                             : var(--color-primary);
+  --home-user-info-logout-br                                : var(--color-primary);
+
+   /* font */
+  --font-size-small                                         : 14px;
+  --font-size-primary                                       : 16px;
+  --font-size-large                                         : 18px;
+  --font-size-large-x                                       : 24px;
+  --font-weight-primary                                     : 500;
+
+  /* AppList */
+  --app-list-table-border                                   : #D2E8FF;
+  --app-list-search-border                                  : #C9CEDD;
+
+  /* AppFilter */
+  --app-filter-ischecked                                    : var(--color-primary);
+  --app-filter-size-color                                   : #697B98;
+  --app-filter-more-color                                   : #666;
+  --app-filter-size-bg                                      : var(--br-color-base-1);
+
+  /* AppQuestion */
+  --app-question-br-color                                   : var(--br-color-base);
+
+  /* AppTree */
+  --app-tree-br-color                                       : var(--br-color-base);
+
+  /* table */
+  --table-header-bg                                         : #D5E9FF;
+  --table-header-color                                      : #5577AD;
+
+  /* Quesiton */
+  --question-left-bg                                        : var(--color-white);
+  --question-left-tab-active-color                          : var(--color-primary);
+  --question-left-br                                        : var(--br-color-base-1);
+  --question-right-count-color                              : #606266;
+  --question-right-count-disable-color                      : var(--app-list-search-border);
+
+  /* Edition */
+  --edition-li-color                                        : var(--color-gray);
+  --edition-li-bg-color                                     : var(--br-color-base-1);
+  --edition-li-active-color                                 : var(--color-white);
+  --edition-li-active-bg-color                              : var(--color-primary);
+
+  /* Lessons */
+  --Lessons-li-gray                                         : #697B98;
+  --Lessons-li-gray2                                        : #A0ABC3;
+  --Lessons-li-green                                        : #08C8C8;
+  --lessons-upload-bg                                       : #F1F1F1;
+  --lessons-evaluation-color                                : #A0ABC3;
+  --lessons-choose-bg                                       : #F4F8FF;
+ /* report */
+  --report-knowledge-bg                                     : #FFEEF0;
+  --report-bg                                               : #EEF6FF;
+  --report-size-color                                       : #223350;
+  --report-dark-bg                                          : #EBEBEB;
+  
+}
