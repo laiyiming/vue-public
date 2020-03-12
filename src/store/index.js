@@ -8,7 +8,7 @@ Vue.use(Vuex);
 export default new Vuex.Store({
   ...modules,
   state: {
-    pageLoading: false,
+    pageLoading: false
   },
   mutations: {
     // 设置页面loading状态
